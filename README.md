@@ -4,7 +4,7 @@
 
 Hybridization between Azure Functions and Flask
 
-## HOWTO
+## switch in azure
 
 ```shell
 az functionapp start --name example-flask --resource-group rg-prototyping
@@ -21,3 +21,13 @@ curl "https://example-flask.azurewebsites.net/api/Flask?uri=/hello/timur&code={F
 
 The Azure DevOps must have a shared `pay-as-you-go-subscription` variable group that provides access to all pipelines.   
 The group must have a variable `subscription-id`.   
+
+## setup
+
+[insert shared python project setup text]
+
+### install dependencies
+
+```shell
+pip install -r requirements.txt 
+```
