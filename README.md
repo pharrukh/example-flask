@@ -16,3 +16,8 @@ az functionapp stop --name example-flask --resource-group rg-prototyping
 ```shell
 curl "https://example-flask.azurewebsites.net/api/Flask?uri=/hello/timur&code={FUNCTION_CODE}"
 ```
+
+## deployment
+
+The Azure DevOps must have a shared `pay-as-you-go-subscription` variable group that provides access to all pipelines.   
+The group must have a variable `subscription-id`.   
