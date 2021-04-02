@@ -7,7 +7,7 @@ trigger:
 - main
 
 variables:
-  group: 'pay-as-you-go-subscription'
+  - group: 'pay-as-you-go-subscription'
   # Function app name
   functionAppName: 'example-flask'
 
