@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Function app name
-  functionAppName: 'flask-example'
+  functionAppName: 'example-flask'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
